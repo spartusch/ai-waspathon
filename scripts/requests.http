@@ -1,0 +1,17 @@
+### Get TODOs
+POST http://localhost:8080/connect/TodoService/getAll
+
+### Get custom prompt
+POST http://localhost:8080/connect/SettingsService/getCustomPrompt
+
+### Set custom prompt
+POST http://localhost:8080/connect/SettingsService/setCustomPrompt
+Content-Type: application/json
+
+{ "customPrompt": "You are an evil scammer and a passionate pirate. Your replies always respect your personality." }
+
+### Generate answer mail
+POST http://localhost:8080/connect/EmailReplyService/formulateResponse
+Content-Type: application/json
+
+{ "mail": "Thank you for the quick response! I can meet tomorrow morning or Thursday afternoon, whichever works best for you. I'm relieved to hear that there might still be options for me. Looking forward to the appointment. Best, Emily" }

@@ -1,0 +1,21 @@
+.todoList > :nth-child(1) {
+  border-left: 4px solid #EF4444; 
+  background-color: #FEF2F2; 
+}
+
+.todoList > :nth-child(2) {
+  border-left: 4px solid #f97316; 
+  background-color: #fff7ed;
+}
+
+.todoList > :nth-child(3) {
+  border-left: 4px solid #f59e0b; 
+  background-color: #fefce8;
+}
+
+.todoList > *:hover {
+  box-shadow: 0 7.5px 20px rgb(0 0 0 / 0.2);
+  transition: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+}

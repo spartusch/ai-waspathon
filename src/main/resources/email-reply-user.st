@@ -1,0 +1,1 @@
+Formulate a response for the following email: {emailText}
